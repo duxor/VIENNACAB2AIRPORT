@@ -2,9 +2,9 @@
 @section('body')
     <section class="container first text-center">
         <div class="col-sm-4 nav-mdux">
-            <h1>Vienna airport taxi</h1>
+            <h1>Vienna Cab2Airport</h1>
             <h2>Online-Bestellung schnell und einfach</h2>
-            <a href="" class="btn btn-lg btn-default btn-dux-lblue">Bestellen</a>
+            <a href="/bestellen" class="btn btn-lg btn-default btn-dux-lblue">Bestellen taxi</a>
             <img src="/img/cc.jpg" width="100%">
             <h3>(+43) 660 700 36 00</h3>
         </div>
@@ -14,29 +14,36 @@
                     <li data-target="#sliderID" data-slide-to="0" class="active"></li>
                     <li data-target="#sliderID" data-slide-to="1"></li>
                     <li data-target="#sliderID" data-slide-to="2"></li>
+                    <li data-target="#sliderID" data-slide-to="3"></li>
                     <li data-target="#sliderID" data-slide-to="4"></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img width="900" height="599" title="Vienna aitport taxi - Cab" src="img/slider/vienna-cab-airport-aeroplane.jpg" alt="EIN PROFESSIONELLES SERVICE" name="VC2A"><!--width="900" height="599"-->
+                        <img title="Vienna aitport taxi - Cab" src="img/slider/vienna-cab-airport-mercedes-3.jpg" alt="Vienna Cab2 airport taxi" width="900" height="599">
                         <div class="carousel-caption">
                             <h2>Vienna Taxi</h2>
                         </div>
                     </div>
                     <div class="item">
-                        <img title="Vienna aitport taxi - Cab" src="img/slider/vienna-cab-airport-mercedes-3.jpg" alt="Vienna Cab2 airport taxi" width="900" height="599"><!--width=900 height=599-->
+                        <img width="900" height="599" title="Vienna aitport taxi - Cab" src="img/slider/vienna-cab-airport-aeroplane.jpg" alt="EIN PROFESSIONELLES SERVICE" name="VC2A">
                         <div class="carousel-caption">
                             <h2>Vienna Taxi</h2>
                         </div>
                     </div>
                     <div class="item">
-                        <img title="Vienna aitport taxi - Cab" src="img/slider/vienna-cab-airport-mercedes-1.jpg" alt="flughafen" width="900" height="599"><!--width=860 height=381-->
+                        <img title="Vienna aitport taxi - Cab" src="img/slider/vienna-cab-airport-mercedes-4.jpg" alt="Limousinenservice in Wien" width="900" height="599">
                         <div class="carousel-caption">
                             <h2>Vienna Taxi</h2>
                         </div>
                     </div>
                     <div class="item">
-                        <img title="Vienna aitport taxi - Cab" src="img/slider/vienna-cab-airport-mercedes-2.jpg" alt="Limousinenservice in Wien" width="900" height="599"><!--width=900 height=599-->
+                        <img title="Vienna aitport taxi - Cab" src="img/slider/vienna-cab-airport-mercedes-1.jpg" alt="flughafen" width="900" height="599">
+                        <div class="carousel-caption">
+                            <h2>Vienna Taxi</h2>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img title="Vienna aitport taxi - Cab" src="img/slider/vienna-cab-airport-mercedes-2.jpg" alt="Limousinenservice in Wien" width="900" height="599">
                         <div class="carousel-caption">
                             <h2>Vienna Taxi</h2>
                         </div>

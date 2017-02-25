@@ -27,8 +27,10 @@ section h1, section p{color:#024169}
     height: 118px
 }
 
-.navbar-brand{display: none}
+/*.navbar-brand{display: none}*/
 
 .footer ul{font-size: 90%;list-style-type: none}
-
+.footer *{font-size:105%}
+.footer h2{font-size: 200%}
+.footer a{color: #fff;text-decoration: underline}
 .mt100{margin-top:100px}

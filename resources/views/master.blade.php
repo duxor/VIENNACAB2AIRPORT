@@ -150,7 +150,7 @@
 </section>
 <section class="container last text-center">
     <p>{{date('Y')}} &copy; CAB2AIRPORT</p>
-    <p>Designed and Developed by rudi & duXor</p>
+    <p>Designed and Developed by <a href="mailto:rudi121@gmail.com" title="Rudi mail" target="_blank">rudi</a> & <a href="//dusanperisic.com" title="Dusan Perisic website" target="_blank">duXor</a></p>
 </section>
 
     <script type="text/javascript" src="/js/jquery.min.js"></script>
@@ -163,16 +163,13 @@
     <script>
         $(document).scroll(function(){
             if($(document).scrollTop()<119){
-                $("#IznadNav").slideDown();
-                $('#brend').fadeOut();
-                $('.navbar-duxor').removeClass('navbar-fixed-top');
-                $('.navbar-brand').slideUp();
+                if($('.navbar-duxor').data('show')==1) return;
+                $("#IznadNav").show();
+                $('.navbar-duxor').removeClass('navbar-fixed-top').data('show',1);
             }
             else if($(document).scrollTop()>118) {
-                $("#IznadNav").slideUp();
-                $('#brend').fadeIn();
-                $('.navbar-duxor').removeClass('navbar-fixed-top').addClass('navbar-fixed-top');
-                $('.navbar-brand').slideDown();
+                if($('.navbar-duxor').data('show')==0) return;
+                $('.navbar-duxor').removeClass('navbar-fixed-top').addClass('navbar-fixed-top').data('show',0);
             }
         });
         window.fbAsyncInit = function() {
